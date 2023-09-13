@@ -1,0 +1,25 @@
+{
+  "name": "astro-authentication-example",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^6.0.0",
+    "@aws-sdk/client-dynamodb": "^3.418.0",
+    "@aws-sdk/lib-dynamodb": "^3.418.0",
+    "astro": "^3.0.13",
+    "cookie": "^0.5.0",
+    "dotenv": "^16.3.1",
+    "nanoid": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.2",
+    "@types/node": "^20.6.3"
+  }
+}
